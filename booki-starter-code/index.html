@@ -21,31 +21,33 @@
                 <img class="logo" src="./images/logo/Booki.png" alt="logo Booki">
                 <nav>
                     <ul>
-                        <li><a href="#">Hébergements</a></li>
+                        <li><a class="" href="#">Hébergements</a></li>
                         <li><a href="#">Activités</a></li>
                     </ul>
                 </nav>
             </div>            
         </header>
         <section>
-            <div>
+            <div class="h1-container">
                 <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
                 <p>En plein centre-ville ou en pleine nature</p>
             </div>
-            <div>
-                <form id="search-form" action="rechercher" method="get">
-                    <i class="fa-solid fa-location-dot localisation-logo"></i>
+            <div class="search-container">
+                <form class="form-container" id="search-form" action="rechercher" method="get">
+                    <i class="fa-solid fa-location-dot"></i>
                     <input class="search-bar" type="text" name="" id="search-input" placeholder="rechercher">
                     <button class="search-button" type="submit" id="search-button">Rechercher</button>
                     <i class="fa-solid fa-magnifying-glass"></i>                
                 </form>
             </div>
-            <div class="filtres">
-                <p>Filtres</p>
-                <button type=""><i class="fa-solid fa-money-bill-wave"></i>Economique</button>
-                <button type=""><i class="fa-solid fa-person"></i>Familiale</button>
-                <button type=""><i class="fa-solid fa-heart"></i>Romantique</button>
-                <button type=""><i class="fa-solid fa-fire"></i>Nos pépites</button>
+            <div class="filtres-container">
+                <div>
+                    <p>Filtres</p>
+                    <button type=""><i class="fa-solid fa-money-bill-wave"></i>Economique</button>
+                    <button type=""><i class="fa-solid fa-person"></i>Familiale</button>
+                    <button type=""><i class="fa-solid fa-heart"></i>Romantique</button>
+                    <button type=""><i class="fa-solid fa-fire"></i>Nos pépites</button>
+                </div>
             </div>
             <div class="circle-information">
             <i class="fa-solid fa-circle-info"></i>
@@ -59,7 +61,7 @@
                         <h2 class="section-title">Hébergement à Marseille</h2>
                     </div>
                     <div class="hebergements-card">
-                        <a href="#">
+                        <a class="flex-card" href="#">
                             <article class="card">
                                 <img src="./images/hebergements/fred-kleber.jpg" alt="Image de l'hôtel du port">
                                 <div class="">
@@ -174,6 +176,9 @@
                             </article>
                         </a>
                     </div>
+                    <div class="afficher-container">
+                        <p>Afficher plus</p>
+                    </div>
                 </section>
                 <section class="populaires">
                     <div class="populaires-title">
@@ -241,12 +246,29 @@
                     </div>
                 </section>
             </div>
-            <section>
+            <div class="activite-marseille">
                 <h2>Activités à Marseille</h2>
-                <div>
-
-                </div>
-            </section>
+                <section>
+                    <div class="activite-container">
+                        <article class="activite-card">
+                            <img src="./images/activites/reno-laithienne.jpg" alt="image du Vieux-Port">
+                            <p>Vieux-Port</p>
+                        </article>
+                        <article class="activite-card">
+                            <img src="./images/activites/paul-hermann.jpg" alt="image du Fort de Pomègues">
+                            <p>Fort de Pomègues</p>
+                        </article>
+                        <article class="activite-card">
+                            <img src="./images/activites/kilyan-sockalingum.jpg" alt="image du Parc national des Calanques">
+                            <p>Parc national des Calanques</p>
+                        </article>
+                        <article class="activite-card">
+                            <img src="./images/activites/florian-wehde.jpg" alt="image Notre-Dame-de-la-Garde">
+                            <p>Notre-Dame-de-la-Garde</p>
+                        </article>
+                    </div>
+                </section>
+            </div>
         </main>
         <footer>
             <section>
