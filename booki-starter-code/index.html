@@ -16,15 +16,15 @@
 			<header>
 				<div class="header-container">
 					<img class="logo" src="./images/logo/Booki@3x.png" alt="logo Booki" />
-					<nav>
+					<nav class="nav-position">
 						<ul>
-							<li class="nav-hebergements"><a href="#">Hébergements</a></li>
-							<li class="nav-activite"><a href="#">Activités</a></li>
+							<li class="nav-hebergements"><a class="border-position" href="#">Hébergements</a></li>
+							<li class="nav-activite"><a class="border-position" href="#">Activités</a></li>
 						</ul>
 					</nav>
 				</div>
 			</header>
-			<section>
+			<section class="first-section">
 				<div class="h1-container">
 					<h1>Trouvez votre hébergement pour des vacances de rêve</h1>
 					<p>En plein centre-ville ou en pleine nature</p>
@@ -39,21 +39,23 @@
 				</div>
 				<div class="filtres-container">
 					<p>Filtres</p>
-					<button type=""><i class="fa-solid fa-money-bill-wave"></i>Economique</button>
-					<button type=""><i class="fa-solid fa-person"></i>Familiale</button>
-					<button type=""><i class="fa-solid fa-heart"></i>Romantique</button>
-					<button type=""><i class="fa-solid fa-fire"></i>Nos pépites</button>
+					<div class="button-flex">
+						<button type=""><i class="fa-solid fa-money-bill-wave"></i>Economique</button>
+						<button type=""><i class="fa-solid fa-person"></i>Familial</button>
+						<button class="romantique" type=""><i class="fa-solid fa-heart"></i>Romantique</button>
+						<button class="pepites" type=""><i class="fa-solid fa-fire"></i>Nos pépites</button>
+					</div>
 				</div>
 				<div class="circle-information">
-					<i class="fa-solid fa-circle-info"></i>
-					<p>Plus de 500 logements sont disponibles dans cette ville</p>
+					<i class="fa-light fa-circle-info"></i>
+					<p class="info-text">Plus de 500 logements sont disponibles dans cette ville</p>
 				</div>
 			</section>
 			<main>
 				<div class="hebergements-and-populaires">
 					<section class="hebergements">
 						<div>
-							<h2 class="section-title">Hébergement à Marseille</h2>
+							<h2 class="section-title">Hébergements à Marseille</h2>
 						</div>
 						<div class="hebergements-card">
 							<a class="flex-card" href="#">
@@ -80,7 +82,7 @@
 									<img src="./images/hebergements/febrian-zakaria.jpg" alt="Image de l'hôtel chez Amina" />
 									<div class="hebergement-card-text">
 										<div class="title-hebergement-marseille">
-											<h3>Hôtel Chez Amina</h3>
+											<h3 class="title-hebergement-marseille">Hôtel Chez Amina</h3>
 											<p class="prix-nuit">Nuit à partir de 96<span class="euro">€</span></p>
 										</div>
 										<div class="card-rating">
@@ -99,7 +101,7 @@
 									<img src="./images/hebergements/reisetopia.jpg" alt="Image de l'hôtel du port" />
 									<div class="hebergement-card-text">
 										<div class="title-hebergement-marseille">
-											<h3>Hôtel Les Mouettes</h3>
+											<h3 class="title-hebergement-marseille">Hôtel Les Mouettes</h3>
 											<p class="prix-nuit">Nuit à partir de 76<span class="euro">€</span></p>
 										</div>
 										<div class="card-rating">
@@ -118,7 +120,7 @@
 									<img src="./images/hebergements/annie-spratt.jpg" alt="Image de l'hôtel du port" />
 									<div class="hebergement-card-text">
 										<div class="title-hebergement-marseille">
-											<h3>Hôtel de la mer</h3>
+											<h3 class="title-hebergement-marseille">Hôtel de la mer</h3>
 											<p class="prix-nuit">Nuit à partir de 46<span class="euro">€</span></p>
 										</div>
 										<div class="card-rating">
@@ -137,7 +139,7 @@
 									<img src="./images/hebergements/marcus-loke.jpg" alt="Image de l'hôtel du port" />
 									<div class="hebergement-card-text">
 										<div class="title-hebergement-marseille">
-											<h3>Auberge la Canebière</h3>
+											<h3 class="title-hebergement-marseille">Auberge la Canebière</h3>
 											<p class="prix-nuit">Nuit à partir de 25<span class="euro">€</span></p>
 										</div>
 										<div class="card-rating">
@@ -156,7 +158,7 @@
 									<img src="./images/hebergements/nicate-lee.jpg" alt="Image de l'hôtel du port" />
 									<div class="hebergement-card-text">
 										<div class="title-hebergement-marseille">
-											<h3>Auberge Le Panier</h3>
+											<h3 class="title-hebergement-marseille">Auberge Le Panier</h3>
 											<p class="prix-nuit">Nuit à partir de 23<span class="euro">€</span></p>
 										</div>
 										<div class="card-rating">
@@ -177,7 +179,7 @@
 					</section>
 					<section class="populaires">
 						<div class="populaires-title">
-							<h2 class="section-title">Les plus populaires</h2>
+							<h2 class="section-title-populaire">Les plus populaires</h2>
 							<i class="fa-solid fa-chart-line" aria-hidden="true"></i>
 						</div>
 						<div class="populaires-cards">
@@ -243,7 +245,7 @@
 				</div>
 				<div class="activite-marseille">
 					<h2>Activités à Marseille</h2>
-					<section>
+					<section class="activite-marseille-section">
 						<div class="activite-container">
 							<article class="activite-card">
 								<img src="./images/activites/reno-laithienne.jpg" alt="image du Vieux-Port" />
