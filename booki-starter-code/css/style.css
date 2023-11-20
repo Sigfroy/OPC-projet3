@@ -183,8 +183,12 @@ h1 {
     margin-bottom: 1.9em;
 }
 
-.fa-circle-info {
-    padding: 0 0.5em 0 0;
+.fa-info {
+    padding: 0.4em 0.7em 0.4em 0.7em;
+    border: solid 2px var(--main-bg-color);
+    border-radius: 45px;
+    margin-right: 0.7em;
+    
 }
 
 .main-container {
