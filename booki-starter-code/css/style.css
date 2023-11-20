@@ -454,6 +454,10 @@ footer section p {
         height: 13em;
     }
 
+    footer section {
+        margin-bottom: 1em;
+    }
+
 }
 
 /* Small devices (phones, less than 768px) */
@@ -693,8 +697,6 @@ footer section p {
 
     footer section {
     width: unset;
-    margin-top: 1.4em;
-    margin-bottom: 2em;
     margin-left: 0.5em;
     }
 }
