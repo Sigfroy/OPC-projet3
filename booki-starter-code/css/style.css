@@ -20,10 +20,8 @@
 body {
     display: flex;
     justify-content: center;
-    margin-left: 2.5em;
-    margin-top: 0.5em;
     margin: auto;
-    border: black 1px solid;
+    max-width: 1440px;
 }
 
 /****** Header ***********/
@@ -400,7 +398,7 @@ footer section {
     margin-left: 0.8em;
 }
 
-footer section h3 {
+footer section h4 {
     margin-left: 0.4em;
     margin-top: 1em;
 }
